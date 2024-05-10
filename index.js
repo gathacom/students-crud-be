@@ -15,5 +15,5 @@ app.get("/", (req, res) => {
 app.use(productRoute);
 
 app.listen (process.env.PORT || 3000, () => {
-    console.log("Server running");
+    console.log(`Server running on port ${process.env.PORT || 3000}`);
 })
