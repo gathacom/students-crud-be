@@ -1,4 +1,4 @@
-runtime: nodejs16
+runtime: nodejs18
 service: students-crud-be
 env_variables:
   PORT: '5000'
